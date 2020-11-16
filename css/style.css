@@ -1,0 +1,225 @@
+body {
+  text-align: center;
+  background-image: url('../images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-attachment: scroll;
+  background-size: 100%;
+  font-family: 'Bai Jamjuree';
+}
+
+h1 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+.btn {
+  border-radius: 30px;
+  border: none;
+}
+
+.btn-success {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 2px 2px #2b9983;
+}
+
+.btn-success:hover {
+  background-color: #5dccbb;
+  box-shadow: 2px 2px #5eb4a4;
+}
+
+.btn-primary {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 2px #5763c6;
+}
+
+.btn-primary:hover {
+  background-color: #8896ff;
+  box-shadow: 2px 2px #7a88e6;
+}
+
+#title {
+  padding: 3% 30%;
+}
+
+.title-description {
+  padding: 3% 0%;
+}
+
+.button-1 {
+  text-align: right;
+}
+.button-2 {
+  text-align: left;
+}
+
+#computer {
+  text-align: left;
+}
+
+.title-img {
+  padding: 10%;
+}
+
+.keep-track-heading {
+  padding: 3% 30%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.computer-img {
+  position: relative;
+  right: 100px;
+  width: 100%;
+}
+
+.description {
+  margin-right: 30%;
+  vertical-align: middle;
+}
+
+.feature {
+  padding: 5% 0%;
+}
+
+#access {
+  padding: 10% 0% 0%;
+}
+
+.access-anywhere {
+  padding: 5% 30%;
+}
+
+.devices-img {
+  width: 60%;
+}
+
+#workflow {
+  padding: 3% 5%;
+}
+
+.workflow-icon {
+  padding: 10%;
+}
+
+.row-1 {
+  padding: 3%;
+}
+
+.row-2 {
+  padding: 10%;
+}
+
+#bottom {
+  padding: 0% 30%;
+  padding-bottom: 10%;
+}
+
+#contact {
+  padding: 3%;
+}
+
+.contact-link {
+  padding: 3%;
+}
+
+.fa {
+  color: hsl(210, 10%, 33%);
+  padding: 3%;
+}
+
+.bottom-logo {
+  width: 40%;
+}
+
+.bottom-text {
+  padding-bottom: 3%;
+}
+
+@media (max-width: 760px) {
+  #title {
+    padding: 3% 10%;
+  }
+
+  .btn-success {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 2px 2px #2b9983;
+    width: 100%;
+  }
+
+  .btn-primary {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px #5763c6;
+    width: 100%;
+  }
+
+  .button-1 {
+    text-align: center;
+    padding: 3%;
+  }
+  .button-2 {
+    text-align: center;
+    padding: 3%;
+  }
+
+  .computer-img {
+    position: relative;
+    right: 0px;
+    width: 90%;
+    padding: 10% 0%;
+  }
+  .devices-img {
+    width: 90%;
+    padding-bottom: 20%;
+  }
+
+  #computer {
+    text-align: center;
+  }
+
+  .keep-track-heading {
+    padding: 50% 10%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .description {
+    margin-right: 0%;
+  }
+
+  .access-anywhere {
+    padding: 50% 10% 15%;
+  }
+
+  .workflow-icon {
+    padding-top: 20%;
+  }
+
+  .workflow-image {
+    padding: 10%;
+  }
+
+  #bottom {
+    padding: 20% 10%;
+  }
+
+  .bottom-logo {
+    width: 25%;
+    padding: 5%;
+  }
+}
